@@ -1,0 +1,28 @@
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+  min-height: 80vh;
+  border: 1px solid black;
+  background-image: url(images/bgheader.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2em;
+  color: white;
+
+
+}
+
+.header-content h1 {
+  font-size: 3em;
+}
