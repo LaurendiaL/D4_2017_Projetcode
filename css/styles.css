@@ -3,9 +3,12 @@ body {
 
 }
 
+h1 {
+  font-size: 2.5em;
+}
+
 header {
   min-height: 80vh;
-  border: 1px solid black;
   background-image: url(images/bgheader.jpg);
   background-position: top center;
   background-repeat: no-repeat;
@@ -13,6 +16,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+section {
+  padding : 3em;
 }
 
 .header-content {
