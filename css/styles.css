@@ -6,8 +6,11 @@ line-height: 1.45;
 
 #bio {
     min-height: 45vh;
-    display: flex;
-    align-items: center;
+}
+
+.bio-content-block {
+  display: flex;
+  align-items: center;
 }
 
 h1 {
@@ -70,4 +73,8 @@ footer {
 
 .header-content h1 {
   font-size: 3em;
+}
+
+#comp ul {
+  display: flex;
 }
