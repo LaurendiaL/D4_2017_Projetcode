@@ -52,7 +52,6 @@ header {
 section {
   padding : 3em;
   color: #0000ff;
-  max-width: 46em;
   margin: 0 auto;
 }
 
@@ -77,4 +76,19 @@ footer {
 
 #comp ul {
   display: flex;
+}
+
+#port ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#port li {
+  max-width: 30%;
+  margin: 22px;
+}
+
+#port li img {
+  width: 100%;
 }
