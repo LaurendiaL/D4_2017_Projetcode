@@ -29,11 +29,14 @@ p {
 
 h2 {
   font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  margin-bottom: 1.3em;
 }
 
 li {
   font-family: 'Josefin Sans', sans-serif;
 }
+
 
 
 header {
@@ -76,6 +79,9 @@ footer {
 
 #comp ul {
   display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 #port ul {
