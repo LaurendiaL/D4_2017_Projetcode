@@ -6,11 +6,19 @@ line-height: 1.45;
 
 #bio {
     min-height: 45vh;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+  justify-content: space-between;
+
+
 }
 
 .bio-content-block {
-  display: flex;
-  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  columns: 2;
 }
 
 h1 {
@@ -92,6 +100,10 @@ footer {
   justify-content: space-around;
 }
 
+.portfolio {
+  position: relative;
+}
+
 #port li {
   max-width: 30%;
   margin: 22px;
@@ -99,4 +111,11 @@ footer {
 
 #port li img {
   width: 100%;
+}
+
+.portfolio h2 {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
