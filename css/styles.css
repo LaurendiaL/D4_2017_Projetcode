@@ -119,3 +119,19 @@ footer {
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
+
+a
+{
+color: white;
+text-decoration: none;
+}
+
+.social-links {
+
+  padding-right: 25px;
+    padding-left: 25px;
+
+    display: inline-block;
+    border-bottom: 0;
+    
+}
